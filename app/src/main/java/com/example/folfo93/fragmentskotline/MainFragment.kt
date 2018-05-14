@@ -1,5 +1,6 @@
 package com.example.folfo93.fragmentskotline
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
@@ -24,6 +25,9 @@ class MainFragment : Fragment() {
         main_button.setOnClickListener {
             toast("Mensaje: ${main_editText.text}")
             main_textview.text = main_editText.text
+            val datos = Intent(activity,Main2Activity::class.java)
+            datos.putExtra("key1","valor1")
+            startActivity(datos)
         }
     }
 }
