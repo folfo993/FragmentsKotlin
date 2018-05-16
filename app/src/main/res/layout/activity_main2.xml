@@ -8,12 +8,11 @@
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/fragmentA"
+        xmlns:tools="http://schemas.android.c¡om/tools"
+        android:id="@+id/fragmentB"
         android:name="com.example.folfo93.fragmentskotline.SecondFragment"
         android:layout_width="match_parent"
         android:layout_height="317dp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_second" />
-
 </android.support.constraint.ConstraintLayout>

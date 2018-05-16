@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DosFragments</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="hint">Mensaje</string>
+    <string name="button">Procesar</string>
+    <string name="title_activity_visor">Visor</string>
+    <string name="txt">Texto</string>
+    <string name="hello_blank_fragment">Blanco</string>
+    <string name="second_fragment">Segundo</string>
+    <string name="boton_start">Comenzar</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
